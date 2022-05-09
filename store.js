@@ -4,41 +4,41 @@ let data = {
            { ime_aplikacije: 'health_and_fitness' },
         ],
     },
-    Vježbe:{
-        data: {
+    Vjezbe:{
+        
             arms:[
                 {
                 exercize_name: 'arm circles',
                 how_to_do_exercize:'  1. Stand straight with your arms by your sides. \n 2.Lift your arms laterally to the shoulder level, with the palms facing away. \n 3.Start circling your arms in the forward direction without bending or flexing your elbows.',
                 exercize_type:'At_home',
-                exerciye_dificulty:'Begginer',
+                exerciye_dificulty:'Beginner',
                 slika:'',
                 },
                 {
                 exercize_name: 'incline pushups',
                 how_to_do_exercize:'   1.Stand in front of your box or bench, then squat or bend down and place both hands on either side of it with your fingers pointing forward. Your hands should be about shoulder-width apart. If you need a wider piece of equipment to safely elevate yourself, don’t be shy about swapping it out.\n 2. Once your hands are in the right position, step your body back into a plank position, one leg at a time. Make sure your body is in a straight line, your head is aligned with your spine, and that your lower back isn’t sagging before continuing. Looking a few inches ahead of you, rather than down at the box, can help keep your body straight.\n3.Next, bend your arms to help you slowly lower your chest toward the box. Straighten your arms to bring yourself back up into a straight line.',
                 exercize_type:'At_home',
-                exerciye_dificulty:'Begginer',
+                exerciye_dificulty:'Beginner',
                 slika:'',
                     },
                      {
                 exercize_name: 'knee pushups',
                 how_to_do_exercize:'  1.Kneel on the floor.\n2.Extend arms and put hands shoulder-width apart on the floor in front of you.\n3.Tighten abs while you bend arms, lowering your torso until chest grazes the floor.\n3.Push torso back up by straightening arms. Slow and steady.',
                 exercize_type:'At_home',
-                exerciye_dificulty:'Begginer',
+                exerciye_dificulty:'Beginner',
                 slika:'',
                 },
                 {
                 exercize_name: 'pushups',
                 how_to_do_exercize:'   1.   Contract your abs and tighten your core by pulling your belly button toward your spine. \n2. Inhale as you slowly bend your elbows and lower yourself to the floor, until your elbows are at a 90-degree angle.\n3.   Exhale while contracting your chest muscles and pushing back up through your hands, returning to the start position. ',
                 exercize_type:'At_home',
-                exerciye_dificulty:'Begginer',
+                exerciye_dificulty:'Beginner',
                 slika:'',                },
                 {
                 exercize_name: 'wide arm push ups',
                 how_to_do_exercize:' 1.Start in plank position with your hands wider than your shoulders.\n2.Face your fingers forward or slightly to the outside.\n3.Slowly bend your elbows out to the side as you lower your body toward the floor.\n4.Pause when your chest is just below your elbows.\n5.Engage your core as you press into your hands to lift your body back to the starting position. ',
                 exercize_type:'At_home',
-                exerciye_dificulty:'Begginer',
+                exerciye_dificulty:'Beginner',
                 slika:'',
                 },
                 {
@@ -136,7 +136,7 @@ let data = {
                     2.Slowly lift your weights to shoulder-level while keeping your elbows by your sides.
                     3.Slowly lift back down to the starting position. `,
                     exercize_type:'In-gym',
-                    exerciye_dificulty:'Begginer',
+                    exerciye_dificulty:'Beginner',
                     slika:'',
                     },
                     {
@@ -146,7 +146,7 @@ let data = {
                     3.Lift weights up to meet above your chest, then return back to the starting position.
                     4.Avoid locking your joints when your arms are out straight. `,
                     exercize_type:'In-gym',
-                    exerciye_dificulty:'Begginer',
+                    exerciye_dificulty:'Beginner',
                     slika:'',
                         },
                          {
@@ -155,7 +155,7 @@ let data = {
                     2.Move arms down so your elbows are at a 90-degree angle.
                     3.Lift weights back up above your head.`  ,
                     exercize_type:'In-gym',
-                    exerciye_dificulty:'Begginer',
+                    exerciye_dificulty:'Beginner',
                     slika:'',
                     },
                     {
@@ -164,7 +164,7 @@ let data = {
                     2.Pull weights up toward your sides, and bring them back down.
                     3.Keep your arms as close to your side as possible. `,
                     exercize_type:'In-gym',
-                    exerciye_dificulty:'Begginer',
+                    exerciye_dificulty:'Beginner',
                     slika:'',
                     },
                    
@@ -253,7 +253,7 @@ let data = {
                         exercize_name: 'side hop',
                         how_to_do_exercize:`1.Stand on the floor,out your hands in front of you and hop from side to side`,
                         exercize_type:'At_home',
-                        exerciye_dificulty:'Begginer',
+                        exerciye_dificulty:'Beginner',
                         slika:'',
                         },
                         {
@@ -264,7 +264,7 @@ let data = {
                         4. Strive to eventually reach parallel, meaning knees are bent to a 90-degree angle.
                         5. Press into your heels and straighten legs to return to a standing upright position.`,
                         exercize_type:'At_home',
-                        exerciye_dificulty:'Begginer',
+                        exerciye_dificulty:'Beginner',
                         slika:'',
                             },
                             {
@@ -274,7 +274,7 @@ let data = {
                         3.As you exhale, gently raise your left leg off the lower leg. Stop raising your leg when you feel the muscles flex in your lower back or obliques.
                         4.Inhale and lower the leg back down to meet the right leg. Stack your feet again.`,
                         exercize_type:'At_home',
-                        exerciye_dificulty:'Begginer',
+                        exerciye_dificulty:'Beginner',
                         slika:'',
                         },
                         {
@@ -285,7 +285,7 @@ let data = {
                         4. Return to standing by pressing your right heel into the floor and bringing your left leg forward to complete one rep.
                         5. Alternate legs, and step back with right leg. `,
                         exercize_type:'At_home',
-                        exerciye_dificulty:'Begginer',
+                        exerciye_dificulty:'Beginner',
                         slika:'',                },
                         {
                         exercize_name: 'donkey kicks',
@@ -294,7 +294,7 @@ let data = {
                         2.Use your glute to press your foot directly toward the ceiling and squeeze at the top. Ensure your pelvis and working hip stay pointed toward the ground.
                         3.Return to the starting position. `,
                         exercize_type:'At_home',
-                        exerciye_dificulty:'Begginer',
+                        exerciye_dificulty:'Beginner',
                         slika:'',
                         },
                         {
@@ -399,7 +399,7 @@ let data = {
                             3.Brace your core and straighten your leg to bring yourself to standing on the step.
                             4.Keeping your shoulders back and head up, lower your leg down slowly to the ground. `,
                             exercize_type:'In-gym',
-                            exerciye_dificulty:'Begginer',
+                            exerciye_dificulty:'Beginner',
                             slika:'',
                             },
                             {
@@ -409,7 +409,7 @@ let data = {
                             3.Exhale and flex your knees, pulling your ankles as close to your buttocks as you can.keep your hips firmly on the bench.Hold briefly.
                             4.Inhale as you return your feet to the starting position in a slow and controlled movement.`,
                             exercize_type:'In-gym',
-                            exerciye_dificulty:'Begginer',
+                            exerciye_dificulty:'Beginner',
                             slika:'',
                                 },
                                  {
@@ -418,7 +418,7 @@ let data = {
                             2. Sit your hips back and bend your knees to lower yourself into a squat. Keep the chest up as you squat and squat as low as you can while keeping your back straight (when your back starts to round, that's too low).
                             3. Drive through the feet as you stand and squeeze your glutes as you return to a tall standing position.`,
                             exercize_type:'In-gym',
-                            exerciye_dificulty:'Begginer',
+                            exerciye_dificulty:'Beginner',
                             slika:'',
                                 },
                                 {
@@ -428,7 +428,7 @@ let data = {
                             3.Lift the weight while exhaling until your legs are almost straight. Do not lock your knees. Keep your back against the backrest and do not arch your back.
                             4.Exhale and lower the weight back to starting position.`  ,
                             exercize_type:'In-gym',
-                            exerciye_dificulty:'Begginer',
+                            exerciye_dificulty:'Beginner',
                             slika:'',
                             },
                           
@@ -529,7 +529,7 @@ let data = {
                                     3.Hold for 3 seconds and relax
                                     4.Repeat with the opposite arm and leg`,
                                     exercize_type:'At_home',
-                                    exerciye_dificulty:'Begginer',
+                                    exerciye_dificulty:'Beginner',
                                     slika:'',
                                     },
                                     {
@@ -537,7 +537,7 @@ let data = {
                                     how_to_do_exercize:`1.Start in a push-up position. Lower yourself; shift your body to the left and then to the right.                                                                                             
                                     2.Push your body up and repeat the exercise`,
                                     exercize_type:'At_home',
-                                    exerciye_dificulty:'Begginer',
+                                    exerciye_dificulty:'Beginner',
                                     slika:'',
                                         },
                                         {
@@ -546,7 +546,7 @@ let data = {
                                     2. Keeping hips as still as possible, lift one arm up to shoulder height.
                                     3. Return to center, then lift the other arm to shoulder height.`,
                                     exercize_type:'At_home',
-                                    exerciye_dificulty:'Begginer',
+                                    exerciye_dificulty:'Beginner',
                                     slika:'',
                                     },
                                     {
@@ -556,7 +556,7 @@ let data = {
                                     2.Keeping your lower back naturally arched, push your hips back as far as possible and lower your torso by hinging at the hips. 
                                     Lower until your torso forms a 45-degree angle with the floor (or as close to it as you can get). Hold for 30 seconds, then reverse to return to start. `,
                                     exercize_type:'At_home',
-                                    exerciye_dificulty:'Begginer',
+                                    exerciye_dificulty:'Beginner',
                                     slika:'',                },
                                     {
                                     exercize_name: 'Hollow Hold',
@@ -564,7 +564,7 @@ let data = {
                                     2.Press your lower back into the floor as you lift your arms and legs so your body forms a C (your shoulders and feet should be hovering several inches above the floor). 
                                     3.Squeeze abs and butt muscles and hold for one minute. `,
                                     exercize_type:'At_home',
-                                    exerciye_dificulty:'Begginer',
+                                    exerciye_dificulty:'Beginner',
                                     slika:'',
                                     },
                                     {
@@ -675,7 +675,7 @@ let data = {
                                         3.“Bend your knees and grab the handles. While pressing your heels into the floor, maintain a tall chest, brace your abdominals, and stand up with bar,” Krajewski explains. 
                                         4.Lower under control, maintaining your form throughout. `,
                                         exercize_type:'In-gym',
-                                        exerciye_dificulty:'Begginer',
+                                        exerciye_dificulty:'Beginner',
                                         slika:'',
                                         },
                                         {
@@ -684,7 +684,7 @@ let data = {
                                         2.“Make sure your upper body runs parallel to the floor,” Krajewski says. 
                                         3.“Holding a dumbbell in your left hand, pull the dumbbell straight up toward the side of your chest, then lower it slowly and with control,” . Switch sides between sets.`,
                                         exercize_type:'In-gym',
-                                        exerciye_dificulty:'Begginer',
+                                        exerciye_dificulty:'Beginner',
                                         slika:'',
                                             },
                                              {
@@ -694,7 +694,7 @@ let data = {
                                         3. “With strong, locked arms, pull the cables out and back until you finish the movement with the cables completely to the sides of your body.” 
                                         4. Pause, then return to the starting position, making a point to engage as many muscles in your back as possible.`,
                                         exercize_type:'In-gym',
-                                        exerciye_dificulty:'Begginer',
+                                        exerciye_dificulty:'Beginner',
                                         slika:'',
                                             },
                                             {
@@ -704,7 +704,7 @@ let data = {
                                         3.“Tuck your chin throughout the entire movement and round your shoulders forward as you bend over as far down as you can go,” .
                                         4.Make sure you don’t hyperextend your lower back as you raise yourself up. “Contract your glutes as you come up until your spine is in a nice neutral position,” .`  ,
                                         exercize_type:'In-gym',
-                                        exerciye_dificulty:'Begginer',
+                                        exerciye_dificulty:'Beginner',
                                         slika:'',
                                         },
                                       
@@ -789,7 +789,7 @@ let data = {
                                                     2.Then lift your upper body off the floor. Hold for a few seconds and slowly return                                                                                                                    
                                                     3.It primarily works the rectus abdominis  muscle and the obliques`,
                                                     exercize_type:'At_home',
-                                                    exerciye_dificulty:'Begginer',
+                                                    exerciye_dificulty:'Beginner',
                                                     slika:'',
                                                     },
                                                     {
@@ -799,7 +799,7 @@ let data = {
                                                     3.Reach your arms straight out in front, interlacing your fingers or clasping your hands together.
                                                     4.Use your abdominals to twist to the right, then back to center, and then to the left. `,
                                                     exercize_type:'At_home',
-                                                    exerciye_dificulty:'Begginer',
+                                                    exerciye_dificulty:'Beginner',
                                                     slika:'',
                                                         },
                                                         {
@@ -810,7 +810,7 @@ let data = {
                                                     4.Switch legs, pulling one knee out and bringing the other knee in.
                                                     5.Keep your hips down and run your knees in and out as far and as fast as you can. Alternate inhaling and exhaling with each leg change.`,
                                                     exercize_type:'At_home',
-                                                    exerciye_dificulty:'Begginer',
+                                                    exerciye_dificulty:'Beginner',
                                                     slika:'',
                                                     },
                                                     {
@@ -819,7 +819,7 @@ let data = {
                                                     2. Using your abs rotate your right hand down to your right foot and then back up.
                                                     3. Then do the same thing with your left hand.  `,
                                                     exercize_type:'At_home',
-                                                    exerciye_dificulty:'Begginer',
+                                                    exerciye_dificulty:'Beginner',
                                                     slika:'',                },
                                                     {
                                                     exercize_name: 'leg raises',
@@ -828,7 +828,7 @@ let data = {
                                                     3. Slowly lower your legs back down till they’re just above the floor. Hold for a moment.
                                                     4. Raise your legs back up.`,
                                                     exercize_type:'At_home',
-                                                    exerciye_dificulty:'Begginer',
+                                                    exerciye_dificulty:'Beginner',
                                                     slika:'',
                                                     },
                                                     {
@@ -932,7 +932,7 @@ let data = {
                                                         2.Squeeze your glutes and quads, which will draw your knees up and prevent sagging. “Brace your core as if you were expecting a kick to the stomach, and press your forearms into the ground,” . 
                                                         3.Once you feel everything tighten, squeeze even harder and take big, deliberate breaths as you plank. To increase the challenge, squeeze harder and exhale more air with each breath as you hold the position.`,
                                                         exercize_type:'In-gym',
-                                                        exerciye_dificulty:'Begginer',
+                                                        exerciye_dificulty:'Beginner',
                                                         slika:'',
                                                         },
                                                         {
@@ -940,7 +940,7 @@ let data = {
                                                         how_to_do_exercize:`1.Pick up two kettlebells or two dumbbells as if you were performing a heavy deadlift: Hinge at the hips, bend at the knees, and brace your core to protect your back. “Once in the top position, walk slowly and fight the urge to rush, shrug, slouch, or lean forward,” . 
                                                         2.You can do the exercise with two weights , or it can be loaded unilaterally .`,
                                                         exercize_type:'In-gym',
-                                                        exerciye_dificulty:'Begginer',
+                                                        exerciye_dificulty:'Beginner',
                                                         slika:'',
                                                             },
                                                              {
@@ -949,7 +949,7 @@ let data = {
                                                         2.Pull in your belly button and squeeze your glutes. Slowly start to lower yourself by moving your hands forward. Keep your elbows slightly bent, and shoulders down away from your ears. Only roll out as far forward as you can while maintaining tension on your abs. 
                                                         3. Slowly pull your hands back to you to reset, maintaining a squeeze in the hips.`,
                                                         exercize_type:'In-gym',
-                                                        exerciye_dificulty:'Begginer',
+                                                        exerciye_dificulty:'Beginner',
                                                         slika:'',
                                                             },
                                                             {
@@ -957,7 +957,7 @@ let data = {
                                                         how_to_do_exercize:`1.Hang from a bar. Use an overhand grip. Squeeze a rolled towel or a pad between your knees hard. 
                                                         2.Slowly start to curl your knees up. Breathe out fully when you bring your knees up. Slowly lower your legs, using your core to control the downward movement.`  ,
                                                         exercize_type:'In-gym',
-                                                        exerciye_dificulty:'Begginer',
+                                                        exerciye_dificulty:'Beginner',
                                                         slika:'',
                                                         },
                                                       
@@ -1043,8 +1043,283 @@ let data = {
                                                         slika:'',
                                                         },  
                                             ],
+                                                        chest:[
+                                                            {
+                                                                exercize_name: 'walking plank',
+                                                                how_to_do_exercize:`1.Start in plank position with your body in a straight line. Squeeze your abs like you’re trying to hold a balloon between your thighs.
+                                                                2.Push up from the ground with one arm while retaining your plank form.
+                                                                3.Switch arms and try to repeat for 1 minute. Then, take a breather and repeat as desired. `,
+                                                                exercize_type:'At_home',
+                                                                exerciye_dificulty:'Beginner',
+                                                                slika:'',
+                                                                },
+                                                                {
+                                                                exercize_name: 'wall angels ',
+                                                                how_to_do_exercize:`1. Stand with your head, shoulders, upper back, and booty pressed against a wall. Keep your knees bent just a bit.
+                                                                2.With the backs of your hands against the wall, extend your arms directly above your head.
+                                                                3.Tighten your mid-back muscles as you move your arms down toward your shoulders. Remember to keep your bod glued to the wall.
+                                                                4.Slide your arms down until they’re just below your shoulders. Hold for a sec and return to starting position.
+                                                                5.Complete 2–3 sets of 15–20 reps. `,
+                                                                exercize_type:'At_home',
+                                                                exerciye_dificulty:'Beginner',
+                                                                slika:'',
+                                                                    },
+                                                                    {
+                                                                exercize_name: 'hand release pushup',
+                                                                how_to_do_exercize:`  1.Start in plank position with your shoulders over your hands.
+                                                                2.Lower your body to the floor, flexin’ that core.
+                                                                3.Now that you’ve hit the deck, lift both palms off the ground slightly.
+                                                                4.Press your palms into the floor and push your body back up to starting position.
+                                                                5.Complete 2–3 sets of for 10 reps. `,
+                                                                exercize_type:'At_home',
+                                                                exerciye_dificulty:'Beginner',
+                                                                slika:'',
+                                                                },
+                                                                {
+                                                                exercize_name: 'Seal Push-ups',
+                                                                how_to_do_exercize:`1.Lie on your stomach, legs extended behind you and place your hands directly below your shoulders.
+                                                                2.Contract your glutes and press up through your hands and the tops of your feet to lift your torso and legs off the floor.
+                                                                3.Hold this suspended seal for a moment before bending your elbows and lowering your torso to hover just off of the floor.
+                                                                4.Push up again to start your second rep, allowing only your hands and feet to touch the floor during the entire set.
+                                                                5.Maintain contracted glutes to help protect your lower back and promote more extension through your middle and upper spine.
+                                                                6.Repeat for reps. `,
+                                                                exercize_type:'At_home',
+                                                                exerciye_dificulty:'Beginner',
+                                                                slika:'',                },
+                                                                {
+                                                                exercize_name: 'Dive-bomber Push-Up',
+                                                                how_to_do_exercize:`1.Start in a standard push-up position, and raise your hips as you push down towards the floor.                                                                                                                                                                                                                                                                                                                                           
+                                                                2.Lower your body in an arching motion, so your chest scoops down near the floor. 
+                                                                3.Bring your hips back down as you raise again on your arms. Repeat 10-20 times.`,
+                                                                exercize_type:'At_home',
+                                                                exerciye_dificulty:'Beginner',
+                                                                slika:'',
+                                                                },
+                                                                {
+                                                                exercize_name: 'Rotational press-up ',
+                                                                how_to_do_exercize:`1.Start in a press-up position and lower yourself to one side, twisting as you do so most of your weight is on one shoulder. 
+                                                                2.Press up, then do the same on the other side. That’s two reps.`,
+                                                                exercize_type:'At_home',
+                                                                exerciye_dificulty:'Intermidiate',
+                                                                slika:'',
+                                                                },
+                                                                {
+                                                                exercize_name: 'Shuffle press-up',
+                                                                how_to_do_exercize:`  1.Get in a press-up position with one hand ahead of your shoulder and one behind. 
+                                                                2.Lower yourself to the floor and press up. That’s one rep.
+                                                                3.At the top of the move, jump or walk your hands into the opposite position, then do the next rep. Continue alternating.`,
+                                                                exercize_type:'At_home',
+                                                                exerciye_dificulty:'Intermidiate',
+                                                                slika:'',
+                                                                },
+                                                                {
+                                                                exercize_name: 'Diamond press-up ',
+                                                                how_to_do_exercize:` 1.For this triceps blaster, position your hands together under your chest so your index fingers and thumbs form a triangle, and lower yourself until your chest touches your hands. 
+                                                                2.Press back up to the start. `,
+                                                                exercize_type:'At_home',
+                                                                exerciye_dificulty:'Intermidiate',
+                                                                slika:'',
+                                                                },
+                                                                {
+                                                                exercize_name: 'Gorilla press-up',
+                                                                how_to_do_exercize:`1.Start in a standard press-up position, lower yourself to the floor and then press up quickly, launching yourself off the floor. 
+                                                                2.Slap your chest quickly before returning your hands to the start position.`,
+                                                                exercize_type:'At_home',
+                                                                exerciye_dificulty:'Intermidiate',
+                                                                slika:'',
+                                                                },    
+                                                                {
+                                                                exercize_name: 'One-leg press-up',
+                                                                how_to_do_exercize:`1.Raise one leg, keeping your glutes tight, and do a press-up. 
+                                                                2.Switch legs and repeat. That’s two reps. Now do the rest..`,
+                                                                exercize_type:'At_home',
+                                                                exerciye_dificulty:'Intermidiate',
+                                                                slika:'',
+                                                                },        
+                                                                {
+                                                                exercize_name: 'Narrow-grip decline push-ups with feet elevated at 45-degree angle ',
+                                                                how_to_do_exercize:`1.Place your feet onto an object high off the ground that positions your body at 45 degrees to the floor. 
+                                                                2.Keep your hands just inside shoulder-width on the floor directly under mid-chest. Your body should remain neutral.
+                                                                3.Keep your shoulders blades back and lower yourself down as low as you can. 
+                                                                4.Press back up to the starting positioning while maintaining the same form as described in the previous steps. `,
+                                                                exercize_type:'At_home',
+                                                                exerciye_dificulty:'Advanced',
+                                                                slika:'',
+                                                                },          
+                                                                {
+                                                                exercize_name: 'Incline underhand, close-grip push-up w/ upper body elevated',
+                                                                how_to_do_exercize:`1.Using the same setup as the previous exercise, elevate your upper body by placing your hands (underhand grip) close together on the edge of a raised object not too high off the ground. Your arms should be positioned below your chest.
+                                                                2.Lower yourself down as low as you can and then press back up.`,
+                                                                exercize_type:'At_home',
+                                                                exerciye_dificulty:'Advanced',
+                                                                slika:'',
+                                                                },     
+                                                                {
+                                                                exercize_name: 'Close-grip knuckle pushups',
+                                                                how_to_do_exercize:`1.Close both hands to make two fists and hold them together with a neutral hand position. 
+                                                                2.Get into the push-up position on your knuckles so your hands are directly beneath your lower to mid-chest. 
+                                                                3.Keep your shoulder blades back and your back straight.
+                                                                4.Lower yourself down as far as you can and then push through your knuckles back up to the top.`,
+                                                                exercize_type:'At_home',
+                                                                exerciye_dificulty:'Advanced',
+                                                                slika:'',               
+                                                                },   
+                                                                {
+                                                                exercize_name: 'Archer pushups',
+                                                                how_to_do_exercize:` 1.Get into a push-up position with hands wide and hands pointed out to the sides.
+                                                                2.Maintain a straight body and lower yourself to either side so your body weight shifts to one arm. The non-working arm should be extended straight. 
+                                                                3.Press up using the same arm that your body shifted toward and then repeat on the opposite side. `,
+                                                                exercize_type:'At_home',
+                                                                exerciye_dificulty:'Advanced',
+                                                                slika:'',
+                                                                },   
+                                                               
+                                                
+                                                                {
+                                                                    exercize_name: 'Incline dumbbell press',
+                                                                    how_to_do_exercize:` 1.Set up a bench so it’s at a 45° angle. Lie on the bench holding a dumbbell in each hand by your shoulders with your elbows bent at 90°. 
+                                                                    2.Press the dumbbells up until your arms are straight. Lower under control..`,
+                                                                    exercize_type:'In-gym',
+                                                                    exerciye_dificulty:'Beginner',
+                                                                    slika:'',
+                                                                    },
+                                                                    {
+                                                                    exercize_name: 'Cable cross-over',
+                                                                    how_to_do_exercize:`1.Stand in the centre of the cable machine with both ends of the pulleys at the highest level. 
+                                                                    2.Bend forwards slightly at the waist and hold the handles with your elbows bent a little. 
+                                                                    3.Pull the hands down and across your body, then slowly take them back to the starting position, keeping the bend in your elbows throughout the movement..`,
+                                                                    exercize_type:'In-gym',
+                                                                    exerciye_dificulty:'Beginner',
+                                                                    slika:'',
+                                                                        },
+                                                                        {
+                                                                    exercize_name: 'Resistance band flye',
+                                                                    how_to_do_exercize:`1.Hook two resistance bands to a fixed post behind you. 
+                                                                    2.Hold the other ends of the bands out to your sides with your arms straight. 
+                                                                    3.Slowly bring your arms around until they meet in front of your chest, keeping your arms straight throughout, then slowly take them back to the starting position.`,
+                                                                    exercize_type:'In-gym',
+                                                                    exerciye_dificulty:'Beginner',
+                                                                    slika:'',
+                                                                        },
+                                                                        {
+                                                                    exercize_name: 'Barbell bench press',
+                                                                    how_to_do_exercize:`1. Lie on a bench and grasp a barbell with your hands slightly wider than shoulder-width apart. 
+                                                                    2.Bring the bar down to your chest, then push it back up.`  ,
+                                                                    exercize_type:'In-gym',
+                                                                    exerciye_dificulty:'Beginner',
+                                                                    slika:'',
+                                                                    },
+                                                                    {
+                                                                    exercize_name: 'Dumbbell flyes',
+                                                                    how_to_do_exercize:`1.Lie on your back holding the dumbbells above your chest with arms extended towards the ceiling. 
+                                                                    2.Keeping a slight bend in your elbows and your back flat against the bench, lower the dumbbells out to the sides as far as is comfortable.
+                                                                    3.Pause briefly, then bring the dumbbells back together above your chest. 
+                                                                    4.Aim for three sets of eight reps and use a weight that makes the final few reps tough to get through.`  ,
+                                                                    exercize_type:'In-gym',
+                                                                    exerciye_dificulty:'Beginner',
+                                                                    slika:'',
+                                                                    },
+                                                                
+                                                                
+                                                                    {
+                                                                    exercize_name: 'Kettlebell incline flye',
+                                                                    how_to_do_exercize:`1. Set up a bench at a 15° angle and lie back, holding a kettlebell in each hand above your shoulders with your palms facing. 
+                                                                    2.Lower the weights out to the sides, keeping a slight bend in both elbows, until you feel the stretch across your chest. 
+                                                                    3.Then slowly lift the bells back to the start by squeezing your chest.`,
+                                                                    exercize_type:'In-gym',
+                                                                    exerciye_dificulty:'Intermidiate',
+                                                                    slika:'',
+                                                                    },
+                                                                    
+                                                                    {
+                                                                    exercize_name: 'Landmine press',
+                                                                    how_to_do_exercize:` 1.Stand holding the weighted end in both hands in front of your chest. 
+                                                                    2.Press it up until your arms are extended, then bring it back down. 
+                                                                    3.You can also do the move holding the bar in one hand, or for more stability, do it while kneeling instead of standing.`,
+                                                                    exercize_type:'In-gym',
+                                                                    exerciye_dificulty:'Intermidiate',
+                                                                    slika:'',
+                                                                    },
+                                                                    {
+                                                                    exercize_name: 'Chest Press Machine ',
+                                                                    how_to_do_exercize:`1.Load plates on both sides of a flat-press machine, and adjust the seat so that both of your feet are flat on the floor.
+                                                                    2.Grasp the handles and press to a full lockout. `,
+                                                                    exercize_type:'In-gym',
+                                                                    exerciye_dificulty:'Intermidiate',
+                                                                    slika:'',
+                                                                    },    
+                                                                    {
+                                                                    exercize_name: 'Low-Cable Crossover',
+                                                                    how_to_do_exercize:`1.   Stand between two facing cable stations and attach a D-handle to the low pulleys on each.
+                                                                    2.With a handle in each hand and elbows slightly bent, raise your arms from waist height to out in front of your chest, flexing your pecs as you bring them together.`,
+                                                                    exercize_type:'In-gym',
+                                                                    exerciye_dificulty:'Intermidiate',
+                                                                    slika:'',
+                                                                    },        
+                                                                    {
+                                                                    exercize_name: 'Speed Bench Press',
+                                                                    how_to_do_exercize:`1.Bench press as described above, but do so on a totally flat bench.Use 60% of your max.
+                                                                    2.So if you think you can bench press 250lbs one time, perform your sets with 150, exploding each rep off your chest as fast as you can`,
+                                                                    exercize_type:'In-gym',
+                                                                    exerciye_dificulty:'Intermidiate',
+                                                                    slika:'',
+                                                                    },   
+                                                                    {
+                                                                    exercize_name: ' 3-Way Flye',
+                                                                    how_to_do_exercize:`1.    Attach a suspension trainer to a sturdy overhead object and lengthen the straps to a point where you would do pushups.
+                                                                    2.Grasp the handles and get into pushup position with hands under your shoulders.
+                                                                    3.Your entire body should be straight and your core braced.
+                                                                    4.Bring your arms out to your sides as if you were giving someone a bear hug.
+                                                                    5.Lower your body until you feel a stretch in your chest and then bring your arms together again.
+                                                                    6.That’s one rep of the flye. Perform three reps.
+                                                                    7.Then, from the starting position, open your arms but keep your elbows bent so that the move looks like a combination of a pushup and a flye.
+                                                                    8.Press yourself back up.
+                                                                    9.That’s one rep of the bent-arm flye.
+                                                                    10.Perform three reps.
+                                                                    11.From there, return to the starting position and perform pushups on the handles.
+                                                                    12.All of the above equals one set.`,
+                                                                    exercize_type:'In-gym',
+                                                                    exerciye_dificulty:'Advanced',
+                                                                    slika:'',
+                                                                    },          
+                                                                    {
+                                                                    exercize_name: 'Decline Dumbbell Flys ',
+                                                                    how_to_do_exercize:`1.  Pick up the dumbbells off the floor using a neutral grip (palms facing in). Position the ends of the dumbbells in your hip crease, and sit down on an decline bench.
+                                                                    2.To get into position, lay back and keep the weights close to your chest. Once you are in position, take a deep breath, then press the dumbbells to lockout at the top.
+                                                                    3.Slightly retract your shoulder blades, unlock your elbows, and slowly lower the dumbbells laterally while maintaining the angle at your elbow.
+                                                                    4.Once the dumbbells reach chest level, reverse the movement by squeezing your pecs together and bringing the dumbbells back to their starting position.
+                                                                    5.Without allowing the dumbbells to touch, start the next repetition, and continue until the set is completed.`,
+                                                                    exercize_type:'In-gym',
+                                                                    exerciye_dificulty:'Advanced',
+                                                                    slika:'',
+                                                                    },     
+                                                                    {
+                                                                    exercize_name: 'Hammer Strength Bench Press',
+                                                                    how_to_do_exercize:`1.Sit on the end of the bench and lie back with the handles just below shoulder height. The handles should mimic the position of the bar when benching.
+                                                                    2.Position your palms on the handles, inhale, and set your shoulder blades together on the bench.
+                                                                    3.Press the handles to extension as you exhale but keep the shoulder blades packed.
+                                                                    4.Repeat for the desired number of repetitions.
+                                                                `,
+                                                                    exercize_type:'In-gym',
+                                                                    exerciye_dificulty:'Advanced',
+                                                                    slika:'',
+                                                                    },   
+                                                                    {
+                                                                    exercize_name: 'Pec Dec',
+                                                                    how_to_do_exercize:`1.The pec dec is a great machine for isolating the chest. Before you start, adjust the seat height so that the bottom of the arm pads are about level with your chest when you're sitting on the machine.
+                                                                    2.Select the weight you want to use on the stack.
+                                                                    3.Sit on the machine, grasp the handles and/or place your forearms on the padding. Take the weight off the stack slightly. This is the starting position for the exercise.
+                                                                    4.Keeping your body fixed, slowly bring the forearm pads or handles together. Don't let them touch.
+                                                                    5.Squeeze the chest muscles for a count of 1-3, then slowly lower back to the starting position.
+                                                                    6.Repeat for desired reps.
+                                                                `,
+                                                                    exercize_type:'In-gym',
+                                                                    exerciye_dificulty:'Advanced',
+                                                                    slika:'',
+                                                                    },  
+                                                        ],
            
-        },
+        
     },
 
 };
