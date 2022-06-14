@@ -29,7 +29,7 @@ app.get('/Vjezbe/abs', (req, res) => res.json(data.Vjezbe.abs));
 app.get('/Vjezbe/back', (req, res) => res.json(data.Vjezbe.back));
 app.get('/Vjezbe/chest', (req, res) => res.json(data.Vjezbe.chest));
 
-app.get('/vjezbe/:id', [auth.verify], async(req, res) =>{ //dohvat jedne ocjene preko :id
+app.get('/vjezbe/:id', [auth.verify], async(req, res) =>{ 
     let {id} = req.params
     let db = await connect()
     let ocjena = await db.collection("vjezbe").findOne({_id: mongo.ObjectId(id)})
