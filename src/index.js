@@ -32,8 +32,8 @@ app.get('/Vjezbe/chest', (req, res) => res.json(data.Vjezbe.chest));
 app.get('/vjezbe/:id', [auth.verify], async(req, res) =>{ 
     let {id} = req.params
     let db = await connect()
-    let ocjena = await db.collection("vjezbe").findOne({_id: mongo.ObjectId(id)})
-    res.json(ocjena)
+    let rezultat = await db.collection("vjezbe").findOne({_id: mongo.ObjectId(id)})
+    res.json(rezultat)
 })
 
 app.listen(port, () => console.log(`Port: ${port}`));
