@@ -1,9 +1,9 @@
 import express from 'express';
 import cors from 'cors';
-import data from '../store'
+import data from './store'
 import connect from './db.js';
-import mongo from 'mongodb'
-import auth from './auth.js';
+import mongo from 'mongodb';
+
 import dotenv from "dotenv"
 dotenv.config();
 
@@ -13,27 +13,29 @@ const port = process.env.PORT || 3000
 app.use(cors())
 app.use(express.json())
 
-app.listen(port, () => console.log(`slusam na portu ${port}`))
 
 
 //ime aplikacije
-app.get('/podaci', (req, res) => res.json(data.podaci));
+
 
 //vjezbe
-app.get('/vjezbe', (req, res) => res.json(data.Vjezbe));
+
 
 //pojedine vjezbe
-app.get('/Vjezbe/legs', (req, res) => res.json(data.Vjezbe.legs));
-app.get('/Vjezbe/arms', (req, res) => res.json(data.Vjezbe.arms));
-app.get('/Vjezbe/abs', (req, res) => res.json(data.Vjezbe.abs));
-app.get('/Vjezbe/back', (req, res) => res.json(data.Vjezbe.back));
-app.get('/Vjezbe/chest', (req, res) => res.json(data.Vjezbe.chest));
 
-app.get('/vjezbe/:id', [auth.verify], async(req, res) =>{ 
-    let {id} = req.params
-    let db = await connect()
-    let rezultat = await db.collection("vjezbe").findOne({_id: mongo.ObjectId(id)})
-    res.json(rezultat)
-})
 
-app.listen(port, () => console.log(`Port: ${port}`));
+app.post('/arms', async (req, res) => {
+  let db = await connect();
+ 
+  let cursor = await db.collection('arms').find();
+  let result = await cursor.tooArray()
+  console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+  res.json(result)
+ 
+  })
+
+
+
+
+
+app.listen(port, () => console.log(`Slušam na portu ${port}!`));
