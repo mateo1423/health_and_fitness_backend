@@ -2,9 +2,9 @@
 import mongo from 'mongodb';
 
 // let connection_string = 'mongodb+srv://admin:admin@nt-cluster-jmi8g.mongodb.net/fipugram?retryWrites=true&w=majority';
-let connection_string = process.env.MONGODB_URI || mongodb+srv://admin:admin@nt-cluster-jmi8g.mongodb.net/fipugram?retryWrites=true&w=majority;
+let connection_string = process.env.MONGODB_URI;
 
-let client = new mongo.MongoClient(connection_string, {
+await let client = new mongo.MongoClient(connection_string, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
