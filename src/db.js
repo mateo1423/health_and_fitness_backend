@@ -1,6 +1,6 @@
 let MongoClient = require('mongodb').MongoClient;
 
-let connection_string ="process.env.CONNECTION_STRING";
+let connection_string = process.env.CONNECTION_STRING;
 
 let client = new MongoClient(connection_string, {
  useNewUrlParser: true,
