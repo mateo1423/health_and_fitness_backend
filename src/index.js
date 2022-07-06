@@ -1,6 +1,5 @@
 import express from 'express';
 import cors from 'cors';
-import data from './store'
 import connect from './db.js';
 import mongo from 'mongodb';
 
