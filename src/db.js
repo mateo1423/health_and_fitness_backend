@@ -2,7 +2,7 @@
 import mongo from 'mongodb';
 
 // let connection_string = 'mongodb+srv://admin:admin@nt-cluster-jmi8g.mongodb.net/fipugram?retryWrites=true&w=majority';
-let connection_string = mongodb+srv://admin:admin@nt-cluster-jmi8g.mongodb.net/fipugram?retryWrites=true&w=majority;
+let connection_string = 'mongodb+srv://admin:admin@nt-cluster-jmi8g.mongodb.net/fipugram?retryWrites=true&w=majority';
 
 let client = await new mongo.MongoClient(connection_string, {
     useNewUrlParser: true,
