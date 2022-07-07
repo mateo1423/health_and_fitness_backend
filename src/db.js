@@ -2,7 +2,7 @@
 import mongo from 'mongodb';
 
 // let connection_string = 'mongodb+srv://admin:admin@nt-cluster-jmi8g.mongodb.net/fipugram?retryWrites=true&w=majority';
-let connection_string = process.env.MONGODB_URI;
+let connection_string = "mongodb+srv://admin:admin@cluster0.phhtu3l.mongodb.net/?retryWrites=true&w=majority";
 
 let client = new mongo.MongoClient(connection_string, {
     useNewUrlParser: true,
