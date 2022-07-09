@@ -23,7 +23,7 @@ export default () => {
                     reject('Spajanje na bazu nije uspjelo:' + err);
                 } else {
                     console.log('Database connected successfully!');
-                    db = client.db('fipugram');
+                    db = client.db('vijezbe');
                     resolve(db);
                 }
             });
