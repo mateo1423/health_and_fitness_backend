@@ -21,6 +21,7 @@ app.get('/arms/athome/beginner', async (req, res) => {
   
    let cursor = await db.collection('arms').find( { exercize_type: "At_home", exerciye_dificulty:"Beginner" })
   let result = await cursor.toArray()
+  res.status(200).send({message: "its working"})
  
   res.json(result)
  
